@@ -1,0 +1,366 @@
+{
+	"folder_history":
+	[
+		"/C/Users/bmqy/Desktop/weui-master/src/style",
+		"/C/Users/bmqy/Desktop/天然气专委会pc",
+		"/C/Users/bmqy/Desktop/terebentina-sco.js-df55678"
+	],
+	"last_version": 3114,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"bac",
+						"background-color"
+					],
+					[
+						"max",
+						"max-width"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"al",
+						"alerts"
+					],
+					[
+						"opt",
+						"options"
+					],
+					[
+						"l",
+						"length"
+					]
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"last_filter": "Package Control: ",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 432.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/bmqy/Desktop/gulp文件集/package.json",
+				"/C/Users/bmqy/Desktop/gulp文件集/gulpfile.js",
+				"/C/Users/bmqy/Desktop/weui-master/gulpfile.js",
+				"/D/works/Web Html/EDM/EDM周刊/template/package.json",
+				"/D/works/Web Html/阳光采招网/www/css/css.css",
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/User/Autoprefixer.sublime-settings",
+				"/D/works/规范文档/css模板/pc/public.less",
+				"/C/Users/bmqy/Desktop/html1/index.html",
+				"/D/works/规范文档/css模板/pc/public.css",
+				"/C/Users/bmqy/Desktop/html1/images/meitan.style.css",
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/User/ColorPicker.sublime-settings",
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/User/less2css.sublime-settings",
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/Less2Css/less2css.sublime-settings",
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/Less2Css/README.md",
+				"/C/Users/bmqy/my-awesome-site/_config.yml",
+				"/D/Program Files (x86)/IntelliJIDEALicenseServer(v1.3)/IntelliJIDEALicenseServer.html",
+				"/D/Program Files (x86)/IntelliJIDEALicenseServer(v1.3)/IntelliJIDEALicenseServer_windows_amd64.exe",
+				"/C/Users/bmqy/Desktop/weui-master/src/style/base/mixin/setArrow.less",
+				"/C/Users/bmqy/Desktop/weui-master/src/style/widget/weui_cell/weui_switch.less",
+				"/C/Users/bmqy/Desktop/weui-master/src/style/widget/weui_cell/weui_cell_global.less",
+				"/C/Users/bmqy/Desktop/weui-master/src/style/base/fn.less",
+				"/C/Users/bmqy/Desktop/weui-master/src/style/widget/weui_button/weui_btn_global.less",
+				"/C/Users/bmqy/Desktop/weui-master/src/style/base/variable/weui_button.less",
+				"/C/Users/bmqy/Desktop/weui-master/src/style/base/variable/weui_cell.less",
+				"/C/Users/bmqy/Desktop/weui-master/src/style/base/variable/monokai.less",
+				"/C/Users/bmqy/Desktop/weui-master/src/style/base/variable/global.less",
+				"/C/Users/bmqy/Desktop/weui-master/src/style/weui.less",
+				"/C/Users/bmqy/Desktop/weui-master/src/style/widget/weui_button/weui_button.less",
+				"/C/Users/bmqy/Desktop/weui-master/src/style/widget/weui_button/weui_btn_default.less",
+				"/C/Users/bmqy/Desktop/weui-master/dist/style/weui.css",
+				"/C/Users/bmqy/Desktop/weui-master/src/style/base/reset.less",
+				"/D/works/Web Html/testproject/package.json",
+				"/C/Users/bmqy/Desktop/style.css",
+				"/C/Users/bmqy/Desktop/footer.php",
+				"/C/Users/bmqy/Desktop/weui-master/dist/example/index.html",
+				"/C/Users/bmqy/Desktop/支付页面h5制作交流包/参考代码/common/success.xml",
+				"/D/Repositories/testproject/db/revs/0/1",
+				"/D/works/Web Html/asp-base/web_2.0/admin/article/detail.asp",
+				"/D/Repositories/htpasswd",
+				"/D/works/Web Html/gulptest/package.json",
+				"/D/works/Web Html/gulptest/node_modules/gulp/package.json",
+				"/D/works/Web Html/gulptest/node_modules/gulp-uglify/node_modules/uglify-save-license/uglify-save-license.js",
+				"/D/works/Web Html/gulptest/gulpfile.js",
+				"/C/Users/bmqy/Desktop/package.json",
+				"/D/works/Web Html/一口车/web/admin/about/category/detail.asp",
+				"/D/works/Web Html/gulptest/node_modules/gulp-less/package.json",
+				"/D/works/Web Html/一口车/web/admin/about/category/insert.asp",
+				"/D/works/Web Html/一口车/web/admin/about/detail.asp",
+				"/D/works/Web Html/asp-base/web_2.0/admin/about/detail.asp",
+				"/D/works/Web Html/一口车/web/admin/article/detail.asp",
+				"/D/works/Web Html/天然气专委会网站/www/index.html",
+				"/C/Users/bmqy/Desktop/111.html",
+				"/D/works/Web Html/asp-base/web_2.0/include/common/ifie.asp",
+				"/D/works/Web Html/asp-base/web_2.0/resource/css/ifie.css",
+				"/D/works/Web Html/EDM/EDM周刊/2016/07.22/images/index.html",
+				"/D/works/Web Html/天然气专委会网站/www/mien.html",
+				"/D/works/Web Html/天然气专委会网站/www/mien_list.html",
+				"/D/works/Web Html/天然气专委会网站/www/detail.html",
+				"/D/works/Web Html/天然气专委会网站/www/list.html",
+				"/D/works/Web Html/asp-base/web_2.0/include/platform/PagedResult.asp",
+				"/D/works/Web Html/天然气专委会网站/www/contact.html",
+				"/D/works/Web Html/找东西/www/detail.html",
+				"/D/works/Web Html/找东西/www/css/style.css",
+				"/D/works/Web Html/找东西/www/my.html",
+				"/D/works/Web Html/找东西/www/recharge.html",
+				"/D/works/Web Html/找东西/www/base/change_phone1.html",
+				"/D/works/Web Html/erp微信端/wap/order_add.html",
+				"/C/Users/bmqy/Desktop/天然气专委会pc(1)/index.html",
+				"/D/works/Web Html/找东西/www/lib/zepto.js",
+				"/C/Users/bmqy/Desktop/天然气专委会pc/list.html",
+				"/C/Users/bmqy/Desktop/demos-in-sfg.name-master/code/4_left_sliding_button_in_listview/demo.html",
+				"/D/works/Web Html/建筑行业协会/web/qiyejia/index.asp",
+				"/D/works/Web Html/建筑行业协会/web/news/index.asp",
+				"/D/works/Web Html/建筑行业协会/www/xiehui/list.html",
+				"/C/Users/bmqy/Desktop/天然气专委会pc/mien_list.html",
+				"/C/Users/bmqy/Desktop/天然气专委会pc/mien.html",
+				"/C/Users/bmqy/Desktop/天然气专委会pc/detail.html",
+				"/C/Users/bmqy/Desktop/天然气专委会pc/contact.html",
+				"/C/Users/bmqy/Desktop/天然气专委会pc/index.html",
+				"/C/Users/bmqy/Desktop/建筑行业协会/xiehui/list.html",
+				"/D/works/Web Html/EDM/EDM周刊/2016/07.15/images/index.html",
+				"/C/Users/bmqy/Desktop/AspCms_Config.asp",
+				"/D/works/Web Html/永华/web/en/templates/default.utf/html/index.html",
+				"/D/works/Web Html/永华/web/en/templates/default.utf/html/head.html",
+				"/C/Users/bmqy/Desktop/jquery-weui-build/dist/demos/index.html",
+				"/D/works/Web Html/永华/web/en/index.asp",
+				"/C/Users/bmqy/Desktop/121.html",
+				"/C/Users/bmqy/Desktop/tests.css",
+				"/D/Program Files/nodejs/node_modules/npm/npmrc",
+				"/D/Program Files/nodejs/node_modules/npm/package.json",
+				"/C/Users/bmqy/Desktop/terebentina-sco.js-df55678/index.html",
+				"/C/Users/bmqy/Desktop/terebentina-sco.js-df55678/css/sco.message.css",
+				"/C/Users/bmqy/Desktop/terebentina-sco.js-df55678/css/scojs.css",
+				"/D/works/Web Html/国联国际站/国际站 7.8 新页面/index.html",
+				"/C/Users/bmqy/Desktop/index.asp",
+				"/C/Users/bmqy/Desktop/header.asp",
+				"/D/works/Web Html/国联国际站/国际站 7.8 新页面/index.asp",
+				"/D/works/Web Html/国联国际站/www/index.html",
+				"/C/Users/bmqy/Desktop/招商函/index.html",
+				"/D/works/Web Html/EDM/招商函《管线管及装备备件行业赴中东经贸考察》/html/index.html",
+				"/C/Users/bmqy/Desktop/ASPCMS258/upload/down/index.asp",
+				"/C/Users/bmqy/Desktop/pdf/index.html",
+				"/C/Users/bmqy/Desktop/ASPCMS258/upload/templates/cn2014/html/down.html",
+				"/C/Users/bmqy/Desktop/index.css",
+				"/C/Users/bmqy/Desktop/index.html"
+			],
+			"find":
+			{
+				"height": 27.0
+			},
+			"find_in_files":
+			{
+				"height": 93.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"ctrl+shift",
+					"ctrl+shift+c",
+					"color",
+					"picker",
+					"color",
+					"#ef2f39",
+					"setArrow",
+					"weuiCellGapH",
+					"padding",
+					"margin",
+					"size",
+					"arrow",
+					"setArrow_Wap",
+					"setArrowColor",
+					"arrow",
+					"arrow_t",
+					"longTap",
+					"$(e)",
+					"d",
+					"title",
+					"popover",
+					"bootstrap",
+					"1.pdf",
+					"190",
+					"290",
+					"%;"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"http://file.ibicn.com/edm/2016/20160706/zshtz.pdf",
+					"188",
+					"288"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,3,-32000,-32000,-1,-1,669,130,130,786",
+			"project": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 214.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

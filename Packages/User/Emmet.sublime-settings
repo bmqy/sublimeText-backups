@@ -1,0 +1,12 @@
+
+{
+	// Custom snippets definitions, as per https://github.com/emmetio/emmet/blob/master/lib/snippets.json
+	"snippets": {
+		"html": {
+			"abbreviations": {
+				"meta:keys": "<meta name=\"keywords\" content=\"\" />",
+				"meta:desc": "<meta name=\"description\" content=\"\" />"
+			}
+		}
+	}
+}

@@ -1,0 +1,4 @@
+{
+	"browsers": [">2%"],
+	"prefixOnSave": true
+}
