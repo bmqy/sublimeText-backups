@@ -48,26 +48,26 @@
 			"buffers":
 			[
 				{
-					"file": "/D/works/Web Html/地下综合管廊建设网/web/include/common/head.asp",
+					"file": "/D/works/Web Html/天然气专委会网站/web/index.asp",
 					"settings":
 					{
-						"buffer_size": 1042,
+						"buffer_size": 10518,
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"file": "/D/works/Web Html/地下综合管廊建设网/web/index.asp",
+					"file": "/C/Users/bmqy/Desktop/LocalSettings.php",
 					"settings":
 					{
-						"buffer_size": 21494,
-						"line_ending": "Windows"
+						"buffer_size": 4687,
+						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/D/works/Web Html/地下综合管廊建设网/web/include/function.asp",
+					"file": "/C/Users/bmqy/Desktop/地下综合管廊建设网/index.html",
 					"settings":
 					{
-						"buffer_size": 10827,
+						"buffer_size": 25887,
 						"line_ending": "Windows"
 					}
 				}
@@ -126,6 +126,11 @@
 			],
 			"file_history":
 			[
+				"/D/phpStudy/WWW/mediawiki-1.27.0/LocalSettings.php",
+				"/C/Users/bmqy/Desktop/LocalSettings.php",
+				"/D/works/Web Html/地下综合管廊建设网/web/include/common/head.asp",
+				"/D/works/Web Html/地下综合管廊建设网/web/index.asp",
+				"/D/works/Web Html/地下综合管廊建设网/web/include/function.asp",
 				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
 				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
 				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
@@ -244,7 +249,7 @@
 			],
 			"find":
 			{
-				"height": 27.0
+				"height": 35.0
 			},
 			"find_in_files":
 			{
@@ -259,6 +264,14 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"$wgUseFileCache",
+					"$wgUseFileCache = false;",
+					"$wgShowIPinHeader",
+					"$wgUseFileCache",
+					"move",
+					"wgShowExceptionDetails",
+					"wgEnableUploads ",
+					"require_once",
 					"ctrl+shift",
 					"ctrl+shift+c",
 					"color",
@@ -316,29 +329,29 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/D/works/Web Html/地下综合管廊建设网/web/include/common/head.asp",
+							"file": "/D/works/Web Html/天然气专委会网站/web/index.asp",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1042,
+								"buffer_size": 10518,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1042,
-										1042
+										6307,
+										6307
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/ASP/HTML-ASP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"is_init_dirty_state": false,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/ASP/HTML-ASP.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 2109.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
@@ -346,29 +359,27 @@
 						},
 						{
 							"buffer": 1,
-							"file": "/D/works/Web Html/地下综合管廊建设网/web/index.asp",
+							"file": "/C/Users/bmqy/Desktop/LocalSettings.php",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 21494,
+								"buffer_size": 4687,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1533,
-										1533
+										2835,
+										2835
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/ASP/HTML-ASP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"syntax": "Packages/PHP/PHP.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 228.0,
+								"translation.y": 1114.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -376,28 +387,29 @@
 						},
 						{
 							"buffer": 2,
-							"file": "/D/works/Web Html/地下综合管廊建设网/web/include/function.asp",
+							"file": "/C/Users/bmqy/Desktop/地下综合管廊建设网/index.html",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 10827,
+								"buffer_size": 25887,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										4913,
-										4913
+										25720,
+										25720
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/ASP/HTML-ASP.sublime-syntax",
-									"translate_tabs_to_spaces": false
+									"syntax": "Packages/HTML/HTML.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 2166.0,
+								"translation.y": 9433.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 2,

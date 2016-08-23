@@ -1,6 +1,7 @@
 {
 	"folder_history":
 	[
+		"/D/works/Web Html/地下综合管廊建设网/web",
 		"/C/Users/bmqy/Desktop/weui-master/src/style",
 		"/C/Users/bmqy/Desktop/天然气专委会pc",
 		"/C/Users/bmqy/Desktop/terebentina-sco.js-df55678"
@@ -90,8 +91,27 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+				"/D/works/Web Html/地下综合管廊建设网/web",
+				"/D/works/Web Html/地下综合管廊建设网/web/admin",
+				"/D/works/Web Html/地下综合管廊建设网/web/admin/article",
+				"/D/works/Web Html/地下综合管廊建设网/web/admin/article/category",
+				"/D/works/Web Html/地下综合管廊建设网/web/include",
+				"/D/works/Web Html/地下综合管廊建设网/web/include/common"
+			],
 			"file_history":
 			[
+				"/D/works/Web Html/地下综合管廊建设网/web/include/common/head.asp",
+				"/D/works/Web Html/地下综合管廊建设网/web/index.asp",
+				"/D/works/Web Html/地下综合管廊建设网/web/include/function.asp",
+				"/C/Users/bmqy/Desktop/LocalSettings.php",
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+				"/D/works/Web Html/地下综合管廊建设网/web/search.asp",
+				"/D/works/Web Html/地下综合管廊建设网/web/include/site.asp",
+				"/D/works/Web Html/地下综合管廊建设网/web/include/config.asp",
 				"/C/Users/bmqy/Desktop/gulp文件集/package.json",
 				"/C/Users/bmqy/Desktop/gulp文件集/gulpfile.js",
 				"/C/Users/bmqy/Desktop/weui-master/gulpfile.js",
@@ -204,7 +224,7 @@
 			],
 			"find":
 			{
-				"height": 27.0
+				"height": 35.0
 			},
 			"find_in_files":
 			{
@@ -219,6 +239,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"require_once",
 					"ctrl+shift",
 					"ctrl+shift+c",
 					"color",
@@ -262,6 +283,12 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "D:\\works\\Web Html\\地下综合管廊建设网\\web"
+				}
+			],
 			"groups":
 			[
 				{
