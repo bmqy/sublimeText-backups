@@ -1,4 +1,8 @@
 [
+	{ 
+		"keys": ["ctrl+shift+w"],
+		"command": "open_in_browser"
+	},
     {
         "keys": ["alt+ctrl+p"],
         "command": "autoprefixer"

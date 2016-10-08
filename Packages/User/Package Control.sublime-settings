@@ -8,11 +8,14 @@
 		"Autoprefixer",
 		"ChineseLocalizations",
 		"ChineseTranslator",
+		"CodeFormatter",
 		"ColorPicker",
 		"ConvertToUTF8",
 		"Emmet",
+		"FileDiffs",
 		"LESS",
 		"LESS-build",
-		"Less2Css"
+		"Less2Css",
+		"Package Control"
 	]
 }
