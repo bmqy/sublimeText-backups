@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"AutoFileName",
 		"Autoprefixer",
 		"ChineseLocalizations",
 		"ChineseTranslator",
@@ -14,9 +15,17 @@
 		"Emmet",
 		"FileDiffs",
 		"FTPSync",
+		"JavaScript Completions",
+		"Keymaps",
 		"LESS",
 		"LESS-build",
 		"Less2Css",
-		"Package Control"
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-javac",
+		"SublimeLinter-jshint",
+		"SublimeLinter-php"
 	]
 }

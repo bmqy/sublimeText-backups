@@ -1,6 +1,8 @@
 {
 	"folder_history":
 	[
+		"/D/works/国联视讯/Web Html/你丢我找/web",
+		"/D/works/Web Html/中国设备工程专家网/web",
 		"/C/Users/bmqy/Desktop/asp V3微信支付",
 		"/C/Users/bmqy/Desktop/WxpayAPI_php_v3",
 		"/D/works/bmqy/ueditor-bmqy",
@@ -512,6 +514,34 @@
 				"selected_items":
 				[
 					[
+						"Cun",
+						"COUNT"
+					],
+					[
+						"select",
+						"SELECT"
+					],
+					[
+						"inlin",
+						"inline-block"
+					],
+					[
+						"to",
+						"toast"
+					],
+					[
+						"even",
+						"eventId"
+					],
+					[
+						"con",
+						"content"
+					],
+					[
+						"repl",
+						"replyMemberId"
+					],
+					[
 						"s",
 						"sex1"
 					],
@@ -583,6 +613,18 @@
 			},
 			"buffers":
 			[
+				{
+					"contents": "<!--#include virtual=\"/include/site.asp\"-->\n<%\nSet con = getConnection()\ndim memberId,mobile,nickname,verifycode,smscode,counter,status,message,registerTime,action,exist,newMobile,newNickname,eventId,markId\ndim createdSmscode,cookieSmscode,exsitTime,smscodeResults\n\naction = getString(\"action\")\nmobile = getString(\"mobile\")\nnickname = getStringWithDefault(\"nickname\", \"佚名\")\nverifycode = getString(\"verifycode\")\nsmscode = getString(\"smscode\")\nmemberId = getIntString(\"memberId\")\neventId = getIntString(\"eventId\")\nmarkId = getIntString(\"markId\")\n\ncreatedSmscode = getRandomString(4)\nsmscodeResults = getCookie(\"smscodeResults\")\ncookieSmscode = getCookie(\"cookieSmscode\")\nexsitTime = 1\n\nif CookieVerify then\n\texist = getCookie(\"verifycode\")\nelse\n\texist = Session(\"verifycode\")\nend if\n\nstatus = 0\nmessage = \"操作成功！\"\nregisterTime = now()\n\n' 获取短信验证码\nif isSame(action, \"getSmscode\") then\t\n\tCall checkSmscode\nend if\n\n' 登录\nif isSame(action, \"login\") then\t\n\tif not isMobile(mobile) then\n\t\tstatus = 2\n\t\tmessage = \"手机号码不正确！\"\n\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\n\telse\t\t\n\t\t'if not isSameIgnoreCase(smscode, cookieSmscode) then \n\t\t''\tstatus = 3\n\t\t''\tmessage = \"验证码输入错误!\"\n\t\t''\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\n\t\t'end if\n\t\t\n\t\tsql = \"SELECT Count(*) AS counter FROM member WHERE mobile=\"& mobile\n\t\tSet rs = con.execute(sql)\t\t\n\t\tcounter = rs(\"counter\")\n\t\trs.close\n\t\t\n\t\tif counter<>0 then\n\t\t\tsql = \"SELECT memberId,nickname,mobile FROM member WHERE mobile=\"& mobile\n\t\t\tSet rs = Server.CreateObject(\"Adodb.RecordSet\")\n\t\t\trs.open sql,con,1,3\n\t\t\tCall setCookie(\"memberId\", rs(\"memberId\"))\n\t\t\tCall setCookie(\"mobile\", rs(\"mobile\"))\n\t\t\tCall setCookie(\"nickname\", rs(\"nickname\"))\t\t\t\n\t\t\trs.close\n\t\t\tmessage = \"登录成功！\"\n\t\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\n\t\telse\n\t\t\tstatus = 1\n\t\t\tmessage = \"该手机尚未注册！\"\n\t\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\t\t\t\n\t\tend if\n\tend if\nend if\n\n' 注册\nif isSame(action, \"register\") then\n\tif not isMobile(mobile) then\n\t\tstatus = 2\n\t\tmessage = \"手机号码不正确！\"\n\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\n\telse\n\t\tif not isSameIgnoreCase(smscode, cookieSmscode) then \n\t\t\tstatus = 3\n\t\t\tmessage = \"验证码输入错误!\"\n\t\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\n\t\tend if\n\t\t\n\t\tsql = \"SELECT Count(*) AS counter FROM member WHERE mobile=\"& mobile\n\t\tSet rs = con.execute(sql)\t\t\n\t\tcounter = rs(\"counter\")\n\t\trs.close\n\t\t\n\t\tif counter<>0 then\n\t\t\tstatus = 1\n\t\t\tmessage = \"用户已存在！\"\n\t\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\n\t\telse\n\t\t\tsql=\"SELECT * FROM member WHERE 1=0\"\n\t\t\tSet rs = Server.CreateObject(\"Adodb.RecordSet\")\n\t\t\trs.open sql,con,1,3\n\t\t\t\n\t\t\trs.addnew\n\t\t\trs(\"nickname\") = nickname\n\t\t\trs(\"mobile\") = mobile\n\t\t\trs(\"registerTime\") = registerTime\n\t\t\trs(\"moneyCount\") = 0\n\t\t\trs.update\n\t\t\tmemberId = rs(\"memberId\")\t\t\t\n\t\t\trs.close\n\t\t\tCall setCookie(\"memberId\", memberId)\n\t\t\tCall setCookie(\"mobile\", mobile)\n\t\t\tCall setCookie(\"nickname\", nickname)\n\t\t\tmessage = \"注册成功！\"\n\t\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\n\t\tend if\n\tend if\nend if\n\n' 退出登录\nif isSame(action, \"logout\") then\n\tclearAllCookie()\n\tmessage = \"您已退出登录！\"\n\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\nend if\n\n' 添加/取消关注\nif isSame(action, \"mark\") then\n\tsql = \"INSERT INTO mark(eventId, memberId) values(\"& eventId &\", \"& memberId &\")\"\n\tSet rs = con.execute(sql)\n\tsql = \"UPDATE event SET markCount = markCount + 1 WHERE eventId=\"& eventId\n\tSet rs = con.execute(sql)\n\tmessage = \"已关注！\"\n\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\nend if\nif isSame(action, \"unmark\") then\n\tif isEmpty(markId) then\n\t\tsql = \"DELETE FROM mark WHERE eventId=\"& eventId &\" AND memberId=\"& memberId\n\telse\n\t\tsql = \"DELETE FROM mark WHERE markId=\"& markId\n\tend if\n\tSet rs = con.execute(sql)\n\tsql = \"UPDATE event SET markCount = markCount - 1 WHERE eventId=\"& eventId\n\tSet rs = con.execute(sql)\n\tmessage = \"已取消！\"\n\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\nend if\n\n' 修改手机\nif isSame(action, \"changeMobile\") then\t\n\tmemberId = getString(\"memberId\")\n\tnewMobile = getString(\"newMobile\")\n\tif isMobile(newMobile) then\t\t\t\n\t\tif not isSameIgnoreCase(smscode, cookieSmscode) then \n\t\t\tstatus = 3\n\t\t\tmessage = \"验证码输入错误!\"\n\t\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\n\t\tend if\n\t\t\n\t\tsql = \"SELECT mobile FROM member WHERE memberId=\"& memberId\n\t\tSet rs = Server.CreateObject(\"Adodb.RecordSet\")\n\t\trs.open sql,con,1,3\n\t\t\n\t\trs(\"mobile\") = newMobile\n\t\trs.update\t\n\t\tCall setCookie(\"mobile\", newMobile)\t\t\t\n\t\trs.close\n\t\tmessage = \"修改成功！\"\n\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\n\telse\n\t\tstatus = 1\n\t\tmessage = \"手机号码不正确！\"\n\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\t\t\t\n\tend if\nend if\n\n' 修改昵称\nif isSame(action, \"changeNick\") then\n\tmemberId = getString(\"memberId\")\n\tnewNickname = getString(\"newNickname\")\n\tif isLengthBetween(newNickname, 2, 20) then\n\t\tsql = \"SELECT nickname FROM member WHERE memberId=\"& memberId\n\t\tSet rs = Server.CreateObject(\"Adodb.RecordSet\")\n\t\trs.open sql,con,1,3\n\t\t\n\t\trs(\"nickname\") = newNickname\n\t\trs.update\t\n\t\tCall setCookie(\"nickname\", newNickname)\t\t\t\n\t\trs.close\n\t\t\n\t\tsql = \"UPDATE event SET nickname='\"& nickname &\"' WHERE memberId=\"& memberId\n\t\tSet rs = con.execute(sql)\n\t\t\n\t\tmessage = \"修改成功！\"\n\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\n\telse\t\t\t\t\t\t\n\t\tstatus = 1\n\t\tmessage = \"昵称长度应为（2~20个）！\"\n\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\n\tend if\nend if\n\n' 获取会员信息列表\nif isSame(action, \"getMemberList\") then\n\tdim searchKeywords,isFirst\n\tsearchKeywords = getString(\"searchKeywords\")\n\tisFirst = true\n\t\n\tsql = \"SELECT mobile,nickname FROM member WHERE 1=1\"\n\tsql = sql &\" AND mobile LIKE '\"& searchKeywords &\"%'\"\n\tSet rs = Server.CreateObject(\"Adodb.RecordSet\")\n\trs.open sql,con,1,3\n\t\n\tCall out(\"[\")\n\twhile not rs.EOF\n\t\tif isFirst then\n\t\t\tCall out(\"{mobile:'\"& rs(\"mobile\") &\"', nickname:'\"& rs(\"nickname\") &\"'}\")\n\t\t\tisFirst = false\n\t\telse\n\t\t\tCall out(\",{mobile:'\"& rs(\"mobile\") &\"', nickname:'\"& rs(\"nickname\") &\"'}\")\t\t\n\t\tend if\n\t\trs.movenext\n\twend\t\t\n\tCall out(\"]\")\n\trs.close\t\t\nend if\n\n' 选择被悬赏人\nif isSame(action, \"chooseReward\") then\n\tdim replyId,rewardMemberId, reward\n\teventId = getIntString(\"eventId\")\n\treplyId = getIntString(\"replyId\")\n\treward = getIntString(\"reward\")\n\t\n\tsql = \"SELECT reward,memberId FROM event WHERE eventId=\"& eventId &\" AND memberId=\"& memberId &\" AND reward=\"& reward\n\tSet rs = con.execute(sql)\n\tif rs.BOF and rs.EOF then\t\n\t\tstatus = 1\n\t\tmessage = \"请确认信息是否无误！\"\n\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\n\telse\n\t\tsql = \"SELECT memberId,status FROM event_reply WHERE replyId=\"& replyId &\" AND eventId=\"& eventId\t\t\n\t\tSet rs = Server.CreateObject(\"Adodb.RecordSet\")\n\t\trs.open sql,con,1,3\n\t\tif rs.BOF and rs.EOF then\t\n\t\t\tstatus = 1\n\t\t\tmessage = \"请确认信息是否无误！\"\n\t\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\n\t\telse\n\t\t\trs(\"status\") = 1\n\t\t\trs.update\n\t\t\trewardMemberId = rs(\"memberId\")\n\t\t\trs.close\n\t\t\t\t\t\t\n\t\t\tsql = \"UPDATE member SET moneyCount = moneyCount +\"& reward &\" WHERE memberId=\"& rewardMemberId\n\t\t\tcon.execute(sql)\n\t\t\tsql = \"UPDATE event SET status = 1 WHERE eventId=\"& eventId\n\t\t\tcon.execute(sql)\n\t\t\t\n\t\t\tmessage = \"确认成功！\"\n\t\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\n\t\tend if\n\tend if\t\nend if\n\n\nSub checkSmscode()\n\tif not isMobile(mobile) then\n\t\tstatus = 2\n\t\tmessage = \"手机号码不正确！\"\n\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\n\telse\n\t\tif isEmpty(smscodeResults) then\n\t\t\tsmscodeResults = getUrlContent(\"http://api.liqwei.com/ytx/sms/ndwz.php?mobile=\"& mobile &\"&code=\"& createdSmscode &\"&time=\"& exsitTime)\n\t\t\tif isContainWith(smscodeResults, \"'code':'0'\") then\n\t\t\t\tcookieSmscode = createdSmscode\n\t\t\t\tCall setCookieWithTime(\"smscodeResults\", smscodeResults, 60)\n\t\t\t\tCall setCookieWithTime(\"cookieSmscode\", cookieSmscode, 60)\n\t\t\t\tmessage = \"验证码已发送，请注意查收！\"\n\t\t\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\t\n\t\t\telse\t\t\t\t\t\n\t\t\t\tstatus = 5\n\t\t\t\tmessage = \"发送失败，请稍候再试！\"\n\t\t\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\n\t\t\tend if\n\t\telse\n\t\t\tstatus = 4\n\t\t\tmessage = \"验证码已下发，请查阅手机！\"\n\t\t\tCall die(\"{ status: \"& status &\", message: '\"& message &\"'}\")\t\t\t\n\t\tend if\n\tend if\nEnd Sub\n\n\ncon.close\n%>",
+					"file": "/D/works/国联视讯/Web Html/你丢我找/web/callback/member.asp",
+					"file_size": 8987,
+					"file_write_time": 131277314337212166,
+					"settings":
+					{
+						"buffer_size": 8248,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -616,7 +658,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 432.0
+				"width": 416.0
 			},
 			"console":
 			{
@@ -635,11 +677,48 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+				"/D/works/国联视讯/Web Html/你丢我找/web",
+				"/D/works/国联视讯/Web Html/你丢我找/web/callback",
+				"/D/works/国联视讯/Web Html/你丢我找/web/include",
+				"/D/works/国联视讯/Web Html/你丢我找/web/include/css",
+				"/D/works/国联视讯/Web Html/你丢我找/web/include/platform",
+				"/D/works/国联视讯/Web Html/你丢我找/web/member"
+			],
 			"file_history":
 			[
+				"/D/works/国联视讯/Web Html/你丢我找/web/include/css/style.css",
+				"/D/works/国联视讯/Web Html/你丢我找/web/callback/reply.asp",
+				"/D/works/国联视讯/Web Html/你丢我找/web/member/reply.asp",
+				"/D/works/国联视讯/Web Html/你丢我找/web/include/site.asp",
+				"/D/works/国联视讯/Web Html/你丢我找/web/callback/member.asp",
+				"/D/works/国联视讯/Web Html/你丢我找/web/member/notice_list.asp",
+				"/D/works/国联视讯/Web Html/你丢我找/web/member/index.asp",
+				"/D/works/国联视讯/Web Html/你丢我找/web/member/publish_list.asp",
+				"/D/works/国联视讯/Web Html/你丢我找/web/index.asp",
+				"/D/works/国联视讯/Web Html/你丢我找/web/member/reply_list.asp",
+				"/D/works/国联视讯/Web Html/你丢我找/web/detail.asp",
+				"/D/works/国联视讯/Web Html/你丢我找/web/include/platform/ConnectionUtil.asp",
+				"/D/works/国联视讯/Web Html/你丢我找/web/callback/event.asp",
+				"/D/works/国联视讯/Web Html/你丢我找/web/include/function.asp",
+				"/D/works/国联视讯/Web Html/你丢我找/web/ftpsync.settings",
+				"/C/Users/admin/Desktop/sites.xml",
+				"/C/Users/admin/AppData/Local/Google/Chrome/User Data/Default/Extensions/ocpaljdllpihinjkgfgbmkhcfdfkghbe/0.0.3_0/scripts/background.js",
+				"/C/Users/admin/AppData/Roaming/Sublime Text 3/Packages/CodeFormatter/Default (Windows).sublime-keymap",
+				"/C/Users/admin/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/admin/AppData/Local/Google/Chrome/User Data/Default/Extensions/ocpaljdllpihinjkgfgbmkhcfdfkghbe/0.0.3_0/manifest.json",
+				"/C/Users/admin/Desktop/你丢我找.ste",
+				"/D/works/Web Html/中国设备工程专家网/web/member/gys/edit.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/include/site-member.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/member/gys/intro.asp",
+				"/D/works/Web Html/专题页/top-model/index.html",
+				"/D/works/Web Html/专题页/top-model/mail.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/include/common/head.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/ftpsync.settings",
+				"/D/works/Web Html/中国设备工程专家网/web/include/config.asp",
 				"/D/works/Web Html/中国设备工程专家网/www/member/gys/index.html",
 				"/C/Users/bmqy/AppData/Local/Temp/fz3temp-2/silian.txt",
-				"/D/works/Web Html/专题页/top-model/mail.asp",
 				"/D/works/Web Html/专题页/top-works/2016/12/27/4626/mail.asp",
 				"/D/works/Web Html/专题页/top-works/2016/12/27/4626/index.html",
 				"/D/works/Web Html/中国设备工程专家网/www/member/register.html",
@@ -736,35 +815,7 @@
 				"/C/Users/bmqy/AppData/Local/Temp/fz3temp-2/main.php",
 				"/C/Users/bmqy/AppData/Local/Temp/fz3temp-2/ueditor.class.php",
 				"/D/works/Web Html/专题页/top-works/2016/10/10/4616/index.html",
-				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/Less2Css/less2css.sublime-settings",
-				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/User/less2css.sublime-settings",
-				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/LESS/README.md",
-				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/LESS/LESS.sublime-settings",
-				"/D/Program Files/Sublime Text 3/Packages/ASP.sublime-package",
-				"/D/works/Web Html/石油学会/web/gcjs/detail.asp",
-				"/D/works/Web Html/全国电子节能技术和产品数据库平台/www/index.html",
-				"/C/Users/bmqy/Desktop/1.vbs",
-				"/D/works/Web Html/专题页/专题模板/top-model/mail.asp",
-				"/C/Users/bmqy/Desktop/fonTags_v1.4_Beta2/安装脚本(installer).jsx",
-				"/D/works/Web Html/石油学会/web/hyqy/detail.asp",
-				"/D/works/Web Html/石油学会/web/hyzx/index.asp",
-				"/D/works/Web Html/石油学会/web/dynamic/index.asp",
-				"/D/works/Web Html/全国电子节能技术和产品数据库平台/web/include/editor/lang/zh-CN.js",
-				"/D/works/Web Html/石油学会/web/dynamic/detail.asp",
-				"/D/works/Web Html/石油学会/web/yyj/index.asp",
-				"/D/works/Web Html/全国电子节能技术和产品数据库平台/web/index.asp",
-				"/D/works/Web Html/专题页/top-works/2016/11/14/4623/css/index.css",
-				"/C/Users/bmqy/Desktop/html/index.html",
-				"/D/works/Web Html/专题页/top-works/2016/11/14/4623/css/main.css",
-				"/C/Users/bmqy/Desktop/固定资产清单-全.xlsx",
-				"/C/Users/bmqy/Desktop/超市进销存报表.xlsx",
-				"/D/works/Web Html/EDM/EDM周刊/2016/11.04/image/index.html",
-				"/D/works/Web Html/EDM/EDM周刊/2016/11.11/image/index.html",
-				"/D/Program Files/Adobe/Adobe Dreamweaver CC 2015/configuration/themes/defaultColorsClassic.xml",
-				"/D/works/Web Html/专题页/top-works/2016/10/31/4622/mail.asp",
-				"/D/works/Web Html/石油学会/www/contact_us/rhsq.html",
-				"/D/works/Web Html/石油学会/web/mail.asp"
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/Less2Css/less2css.sublime-settings"
 			],
 			"find":
 			{
@@ -783,6 +834,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"reddot",
 					"align",
 					"sync",
 					"chrome storage sync",
@@ -909,8 +961,7 @@
 					"move",
 					"wgShowExceptionDetails",
 					"wgEnableUploads ",
-					"require_once",
-					"ctrl+shift"
+					"require_once"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -945,11 +996,47 @@
 				"whole_word": false,
 				"wrap": false
 			},
+			"folders":
+			[
+				{
+					"path": "D:\\works\\国联视讯\\Web Html\\你丢我找\\web"
+				}
+			],
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/D/works/国联视讯/Web Html/你丢我找/web/callback/member.asp",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8248,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5821,
+										5821
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ASP/HTML-ASP.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 3660.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1035,7 +1122,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 214.0,
+			"side_bar_width": 229.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
