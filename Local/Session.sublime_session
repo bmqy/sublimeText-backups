@@ -1,9 +1,9 @@
 {
 	"folder_history":
 	[
+		"/D/works/国联视讯/Web Html/你丢我找/web",
 		"/D/works/Web Html/中国设备工程专家网/web",
 		"/D/works/Web Html/中国设备工程专家网/web/member/action",
-		"/D/works/国联视讯/Web Html/你丢我找/web",
 		"/C/Users/bmqy/Desktop/asp V3微信支付",
 		"/C/Users/bmqy/Desktop/WxpayAPI_php_v3",
 		"/D/works/bmqy/ueditor-bmqy",
@@ -687,15 +687,12 @@
 			"buffers":
 			[
 				{
-					"contents": ".grzx .panel-body .panel-list > li > a{\n    display: block;\n    padding-left:30px;\n    background: url(\"../css/img/jt_up.png\") no-repeat 205px center;\n}\n.grzx .panel-body .panel-list li .sub-menu li{\n    display: block;\n    padding-left:70px;\n    background: url(\"../css/img/icon_tree.png\") no-repeat 40px center ;\n}\n.grzx .panel-body .panel-list > li > a:hover,.grzx .panel-body .panel-list > li.active> a{\n    background: url(\"../css/img/jt_down.png\") no-repeat 205px center;\n    color:#50a6e8;\n    cursor: pointer;\n}\n.grzx .panel-body .panel-list li .sub-menu li:hover a{\n    color:#63b4f0;\n    cursor: pointer;\n}\n.grzx .headBtn{\n    margin-bottom: 15px;\n}\n.basemsg.clearfix p {\n    line-height: 40px;\n}\n.aRightBtn{\n    display:inline-block;\n    width:100px;\n    height:24px;\n    line-height:24px;\n    font-size:12px;\n    color:#fff;\n    background-color:#50a6e8;\n    margin-right:300px;\n    text-align:center;\n    cursor:pointer;\n}\na.aRightBtn.pull-right:hover {\n    background: #63B4f0;\n    color:#fff;\n}\n.aBtn, .aBtnRight{\n    display: inline-block;\n    color:#fff;\n    line-height: 40px;\n    cursor: pointer;\n    margin-right:10px;\n    font-size:13px;\n}\n.aBtn:hover,  .aBtnRight:hover{\n    cursor: pointer;\n    color:#cde8f9;\n}\n.aBtnRight{\n    color:#000;\n}\n.aBtnRight:hover{\n    color:#8C8C8C;\n}\n.grzxtable{\n    border:0;\n}\n.grzxtable tr td{\n    line-height: 40px;\n    border:0;\n}\na.delete{\n    color: #ff0000;\n    text-align: center;\n    display: block;\n}\n\na.editor{\n    color:#50a6e8;\n    text-align: center;\n    display: block;\n}\na.editor:hover{\n    text-decoration: underline;\n    cursor: pointer;\n    color:#50a6e8;\n}\na.delete:hover{\n    text-decoration: underline;\n    cursor: pointer;\n    color:#ff0000;\n}\n.input-row input{\n    width:300px;\n    height:34px;\n    border:1px solid #63b4f0;\n}\n.input-row select{\n    width:300px;\n    height:34px;\n    border:1px solid #63b4f0;\n}\n.input-row textarea{\n    width:300px;\n    height:80px;\n    border:1px solid #63b4f0;\n}\n.input-row .radio-group-box{\n    width: auto;\n    display: inline-block;\n}\n.input-row .btnSure{\n    width:150px;\n    height:40px;\n    border:1px solid #50a6e8;\n    color:#fff;\n    background: #50a6e8;\n    font-size:16px;\n    margin-left:89px;\n}\n.input-row .btnSure:hover{\n    cursor: pointer;\n    background: #63b4f0;\n}\n.ke-container.ke-container-custom{\n    display: inline-block;\n    border:1px solid #50a6e8;\n}\ninput.changeBtn{\n    width: 100px;\n    margin-left: 20px;\n    background-color: #50a6e8;\n    color: #fff;\n    font-size: 14px;\n}\ninput.changeBtn:hover{\n    background-color: #63b4f0;\n    cursor: pointer;\n}\nspan.editor.fcRed{\n    color:#ff0000;\n}\nspan.editor.fcBlue{\n    color:#1485d9;\n}\ninput[type='file']{\n    width:200px;\n}\n.basemag-list{\n    border-top:1px solid #e5e5e5;\n}\n.basemag-list:first-child{\n    border-top:none;\n}\n.moreBtn{\n    display: block;\n    margin:0 auto;\n    height:30px;\n    line-height: 30px;\n    font-size:13px;\n    margin-bottom: 15px;\n    margin-top:15px;\n    background-color: #50a6e8;\n    border: 1px solid #50a6e8!important;\n}\n.moreBtn:hover{\n    background-color: #52adf2;\n    border: 1px solid #52adf2!important;\n}",
-					"file": "/D/works/Web Html/中国设备工程专家网/web/resource/css/member.css",
-					"file_size": 3299,
-					"file_write_time": 131279985400637251,
+					"file": "/D/works/国联视讯/Web Html/你丢我找/web/index.asp",
 					"settings":
 					{
-						"buffer_size": 3136,
-						"line_ending": "Windows",
-						"scratch": true
+						"buffer_size": 12430,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
 					}
 				}
 			],
@@ -707,13 +704,9 @@
 			"command_palette":
 			{
 				"height": 392.0,
-				"last_filter": "",
+				"last_filter": "Package Control: ",
 				"selected_items":
 				[
-					[
-						"",
-						"Color Picker"
-					],
 					[
 						"Package Control: ",
 						"Package Control: Remove Package"
@@ -727,6 +720,10 @@
 						"Package Control: Remove Package"
 					],
 					[
+						"",
+						"Color Picker"
+					],
+					[
 						"pack",
 						"Package Control: Remove Package"
 					],
@@ -735,7 +732,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 432.0
+				"width": 416.0
 			},
 			"console":
 			{
@@ -756,18 +753,24 @@
 			},
 			"expanded_folders":
 			[
-				"/D/works/Web Html/中国设备工程专家网/web",
-				"/D/works/Web Html/中国设备工程专家网/web/member",
-				"/D/works/Web Html/中国设备工程专家网/web/resource",
-				"/D/works/Web Html/中国设备工程专家网/web/resource/css"
+				"/D/works/国联视讯/Web Html/你丢我找/web",
+				"/D/works/国联视讯/Web Html/你丢我找/web/include",
+				"/D/works/国联视讯/Web Html/你丢我找/web/include/css",
+				"/D/works/国联视讯/Web Html/你丢我找/web/include/js"
 			],
 			"file_history":
 			[
+				"/D/works/国联视讯/Web Html/你丢我找/web/include/lib/jquery-2.1.4.js",
+				"/D/works/国联视讯/Web Html/你丢我找/web/include/css/style.css",
+				"/D/works/国联视讯/Web Html/你丢我找/web/include/site.asp",
+				"/D/works/国联视讯/Web Html/你丢我找/web/include/platform/ConnectionUtil.asp",
+				"/D/works/国联视讯/Web Html/你丢我找/web/include/function.asp",
+				"/C/Users/admin/AppData/Roaming/Sublime Text 3/Packages/ColorPick/README.md",
+				"/D/works/Web Html/中国设备工程专家网/web/resource/css/member.css",
 				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/ZZZZZZZZ-Localization/Main.sublime-menu",
 				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/ConvertToUTF8/Default (Windows).sublime-keymap",
 				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/Default (Windows).sublime-keymap",
-				"/D/works/Web Html/中国设备工程专家网/web/resource/css/member.css",
 				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
 				"/D/works/Web Html/中国设备工程专家网/web/resource/css/index.css",
 				"/D/works/Web Html/中国设备工程专家网/web/resource/css/public.css",
@@ -811,19 +814,15 @@
 				"/D/works/Web Html/中国设备工程专家网/web/include/platform/StringUtil.asp",
 				"/D/works/国联视讯/Web Html/你丢我找/web/callback/member.asp",
 				"/D/works/国联视讯/Web Html/你丢我找/web/include/js/main.js",
-				"/D/works/国联视讯/Web Html/你丢我找/web/include/css/style.css",
 				"/D/works/国联视讯/Web Html/你丢我找/web/callback/reply.asp",
 				"/D/works/国联视讯/Web Html/你丢我找/web/member/reply.asp",
-				"/D/works/国联视讯/Web Html/你丢我找/web/include/site.asp",
 				"/D/works/国联视讯/Web Html/你丢我找/web/member/notice_list.asp",
 				"/D/works/国联视讯/Web Html/你丢我找/web/member/index.asp",
 				"/D/works/国联视讯/Web Html/你丢我找/web/member/publish_list.asp",
 				"/D/works/国联视讯/Web Html/你丢我找/web/index.asp",
 				"/D/works/国联视讯/Web Html/你丢我找/web/member/reply_list.asp",
 				"/D/works/国联视讯/Web Html/你丢我找/web/detail.asp",
-				"/D/works/国联视讯/Web Html/你丢我找/web/include/platform/ConnectionUtil.asp",
 				"/D/works/国联视讯/Web Html/你丢我找/web/callback/event.asp",
-				"/D/works/国联视讯/Web Html/你丢我找/web/include/function.asp",
 				"/D/works/国联视讯/Web Html/你丢我找/web/ftpsync.settings",
 				"/C/Users/admin/Desktop/sites.xml",
 				"/C/Users/admin/AppData/Local/Google/Chrome/User Data/Default/Extensions/ocpaljdllpihinjkgfgbmkhcfdfkghbe/0.0.3_0/scripts/background.js",
@@ -888,9 +887,7 @@
 				"/C/Users/bmqy/AppData/Local/Temp/fz3temp-3/index_new.jsp",
 				"/C/Users/bmqy/Desktop/config.asp",
 				"/D/works/Web Html/EDM/EDM周刊/2016/12.02/image/index.html",
-				"/D/works/Web Html/EDM/edm-template/doc.js",
-				"/D/works/Web Html/你丢我找/web/www/member/cert/apiclient_cert.pem",
-				"/D/works/Web Html/你丢我找/web/www/member/cert/apiclient_key.pem"
+				"/D/works/Web Html/EDM/edm-template/doc.js"
 			],
 			"find":
 			{
@@ -1081,7 +1078,7 @@
 			"folders":
 			[
 				{
-					"path": "D:\\works\\Web Html\\中国设备工程专家网\\web"
+					"path": "D:\\works\\国联视讯\\Web Html\\你丢我找\\web"
 				}
 			],
 			"groups":
@@ -1092,33 +1089,29 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/D/works/Web Html/中国设备工程专家网/web/resource/css/member.css",
+							"file": "/D/works/国联视讯/Web Html/你丢我找/web/index.asp",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 3136,
+								"buffer_size": 12430,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3136,
-										3136
+										6187,
+										6187
 									]
 								],
 								"settings":
 								{
-									"force_encoding": "GBK",
-									"in_converting": true,
 									"is_init_dirty_state": false,
-									"origin_encoding": "GBK",
-									"syntax": "Packages/LESS/LESS.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/ASP/HTML-ASP.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 2820.0,
+								"translation.y": 3720.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,

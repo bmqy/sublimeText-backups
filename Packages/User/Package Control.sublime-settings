@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"AutoFileName",
 		"Autoprefixer",
 		"ChineseLocalizations",
 		"ChineseTranslator",
@@ -22,6 +21,7 @@
 		"Less2Css",
 		"Package Control",
 		"SideBarEnhancements",
+		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-csslint",
 		"SublimeLinter-jshint"
