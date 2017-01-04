@@ -21,6 +21,9 @@
 		"LESS-build",
 		"Less2Css",
 		"Package Control",
-		"SideBarEnhancements"
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint"
 	]
 }

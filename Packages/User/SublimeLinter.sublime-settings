@@ -8,7 +8,7 @@
 		"gutter_theme_excludes":
 		[
 		],
-		"lint_mode": "save only",
+		"lint_mode": "background",
 		"linters":
 		{
 			"csslint":
@@ -56,7 +56,7 @@
 				]
 			}
 		},
-		"mark_style": "fill",
+		"mark_style": "outline",
 		"no_column_highlights_line": false,
 		"passive_warnings": false,
 		"paths":
