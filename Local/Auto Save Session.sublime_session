@@ -699,7 +699,7 @@
 					"file": "/C/Users/admin/AppData/Roaming/Sublime Text 3/README.md",
 					"settings":
 					{
-						"buffer_size": 260,
+						"buffer_size": 304,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
@@ -770,6 +770,7 @@
 			"file_history":
 			[
 				"/C/Users/admin/AppData/Roaming/Sublime Text 3/Packages/User/Localization.sublime-settings",
+				"/C/Users/admin/AppData/Roaming/Sublime Text 3/README.md",
 				"/D/works/国联视讯/Web Html/你丢我找/web/include/lib/jquery-2.1.4.js",
 				"/D/works/国联视讯/Web Html/你丢我找/web/include/css/style.css",
 				"/D/works/国联视讯/Web Html/你丢我找/web/include/site.asp",
@@ -895,8 +896,7 @@
 				"/C/Users/bmqy/AppData/Local/Temp/fz3temp-3/index.html",
 				"/C/Users/bmqy/AppData/Local/Temp/fz3temp-3/index.jsp",
 				"/C/Users/bmqy/AppData/Local/Temp/fz3temp-3/index_new.jsp",
-				"/C/Users/bmqy/Desktop/config.asp",
-				"/D/works/Web Html/EDM/EDM周刊/2016/12.02/image/index.html"
+				"/C/Users/bmqy/Desktop/config.asp"
 			],
 			"find":
 			{
@@ -1109,8 +1109,8 @@
 								"selection":
 								[
 									[
-										6187,
-										6187
+										5937,
+										5937
 									]
 								],
 								"settings":
@@ -1132,21 +1132,19 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 260,
+								"buffer_size": 304,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										260,
-										260
+										304,
+										304
 									]
 								],
 								"settings":
 								{
-									"is_init_dirty_state": false,
-									"origin_encoding": "UTF-8",
 									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 								},
 								"translation.x": 0.0,
@@ -1195,7 +1193,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,2,3,-1,-1,-1,-1,591,52,52,708",
+			"position": "0,2,3,-32000,-32000,-1,-1,591,52,52,708",
 			"project": "",
 			"replace":
 			{

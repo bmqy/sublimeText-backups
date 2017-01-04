@@ -7,7 +7,7 @@
 + FTPSync
 + Less
 + Less2Css
-+ Side Bar
++ SideBarEnhancements
 + Autoprefixer
 + CodeFomartter
 + ConvertToUTF8
@@ -15,3 +15,5 @@
 + javascript Completions
 + sublimeLinter
 + ColorPicker
++ ChineseLocalizations
++ Keymaps
