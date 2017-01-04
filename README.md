@@ -11,9 +11,10 @@
 + Autoprefixer
 + CodeFomartter
 + ConvertToUTF8
-+ Evaluate Javascript
 + javascript Completions
 + sublimeLinter
 + ColorPicker
 + ChineseLocalizations
 + Keymaps
++ SublimeCodeIntel
++ DocBlockr

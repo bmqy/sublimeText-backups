@@ -699,7 +699,7 @@
 					"file": "/C/Users/admin/AppData/Roaming/Sublime Text 3/README.md",
 					"settings":
 					{
-						"buffer_size": 304,
+						"buffer_size": 313,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
@@ -718,7 +718,7 @@
 				[
 					[
 						"Package Control: ",
-						"Package Control: Remove Package"
+						"Package Control: Install Package"
 					],
 					[
 						"ins",
@@ -1132,15 +1132,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 304,
+								"buffer_size": 313,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										304,
-										304
+										235,
+										235
 									]
 								],
 								"settings":
