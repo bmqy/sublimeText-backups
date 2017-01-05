@@ -18,3 +18,4 @@
 + Keymaps
 + SublimeCodeIntel
 + DocBlockr
++ Minify
