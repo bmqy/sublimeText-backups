@@ -23,5 +23,4 @@
 + Minify
 + jQuery
 + AutoFileName
-+ Colorcoder
 + All Autocomplete
