@@ -13,6 +13,8 @@
 + ConvertToUTF8
 + javascript Completions
 + sublimeLinter
++ sublimeLinter-csslint
++ sublimeLinter-jshint
 + ColorPicker
 + ChineseLocalizations
 + Keymaps
@@ -20,3 +22,6 @@
 + DocBlockr
 + Minify
 + jQuery
++ AutoFileName
++ Colorcoder
++ All Autocomplete

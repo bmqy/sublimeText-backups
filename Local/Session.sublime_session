@@ -579,28 +579,92 @@
 				"selected_items":
 				[
 					[
-						"sy",
-						"sys_user_role"
+						"mem",
+						"member"
+					],
+					[
+						"for",
+						"forgetMemberId"
+					],
+					[
+						"is",
+						"isEmpty"
+					],
+					[
+						"fo",
+						"forgetMobile"
+					],
+					[
+						"mm",
+						"memberId"
 					],
 					[
 						"user",
-						"userId"
+						"username"
+					],
+					[
+						"set",
+						"Set"
+					],
+					[
+						"use",
+						"username"
+					],
+					[
+						"omo",
+						"oMobileForm"
+					],
+					[
+						"mob",
+						"mobileForm"
+					],
+					[
+						"m",
+						"memberId"
+					],
+					[
+						"co",
+						"cookieSmsVerifycode"
+					],
+					[
+						"the",
+						"theUserId"
+					],
+					[
+						"f",
+						"Function"
+					],
+					[
+						"get",
+						"getCookie"
+					],
+					[
+						"e",
+						"end"
+					],
+					[
+						"me",
+						"messages"
+					],
+					[
+						"ty",
+						"type"
+					],
+					[
+						"border",
+						"border-color"
+					],
+					[
+						"sy",
+						"sys_user_role"
 					],
 					[
 						"And",
 						"AND"
 					],
 					[
-						"mem",
-						"memberId"
-					],
-					[
 						"d",
 						"default"
-					],
-					[
-						"f",
-						"fc999"
 					],
 					[
 						"cg",
@@ -621,10 +685,6 @@
 					[
 						"eof",
 						"EOF"
-					],
-					[
-						"use",
-						"useExpert"
 					],
 					[
 						"sel",
@@ -735,46 +795,57 @@
 			"buffers":
 			[
 				{
-					"file": "/D/works/Web Html/中国设备工程专家网/web/include/function.asp",
+					"file": "/D/works/Web Html/中国设备工程专家网/web/expert/index.asp",
 					"settings":
 					{
-						"buffer_size": 7449,
+						"buffer_size": 3604,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"file": "/D/works/Web Html/中国设备工程专家网/web/admin/reviews/action.asp",
+					"file": "/D/works/Web Html/中国设备工程专家网/web/callback/cb.asp",
 					"settings":
 					{
-						"buffer_size": 9827,
+						"buffer_size": 14077,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"file": "/D/works/Web Html/中国设备工程专家网/web/member/action/cgps.asp",
+					"file": "/D/works/Web Html/中国设备工程专家网/web/expert/detail.asp",
 					"settings":
 					{
-						"buffer_size": 1485,
+						"buffer_size": 5499,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"file": "/D/works/Web Html/中国设备工程专家网/web/admin/reviews/reviews.asp",
+					"contents": "Package Control Messages\n========================\n\nCSS Extended Completions\n------------------------\n\n  CSS Extended Completions\n  \n  Save any file you're working on to add its CSS/LESS/SCSS symbols to the completion index.\n  \n  The following completions are provided:\n  \n  - Extended CSS property/values\n  - CSS class names\n  - CSS IDs\n  - LESS variables/mixins/classes\n  - SCSS variables/mixins/classes\n  \n  Available Options\n  \n  - Options for what scopes trigger completions\n  - Option to auto clear cache on close.\n    Set \"save_cache_to_file\":false (defaults to true)\n  - Auto load css/less/scss from external folders\n    Example: \"load_external_files\":[\"/some/folder\", \"/another/folder\"]\n    (Must be absolute paths)\n  - Option to adjust what pseudo selectors are added to completions\n  - And more, just checkout the Default Settings file\n    Preferences > Package Settings > CSS Extended Completions\n  \n  \n  To delete your cache, open the command palette and type 'CSS delete cache'\n",
 					"settings":
 					{
-						"buffer_size": 12773,
+						"buffer_size": 991,
+						"line_ending": "Windows",
+						"name": "Package Control Messages",
+						"read_only": true,
+						"scratch": true
+					}
+				},
+				{
+					"file": "/C/Users/bmqy/AppData/Roaming/Sublime Text 3/README.md",
+					"settings":
+					{
+						"buffer_size": 359,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"file": "/D/works/Web Html/中国设备工程专家网/web/member/cgps/edit.asp",
+					"file": "/D/works/Web Html/中国设备工程专家网/web/expert/left.asp",
 					"settings":
 					{
-						"buffer_size": 9778,
+						"buffer_size": 1063,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
@@ -788,15 +859,27 @@
 			"command_palette":
 			{
 				"height": 392.0,
-				"last_filter": "Package Control: ",
+				"last_filter": "ins",
 				"selected_items":
 				[
 					[
-						"Package Control: ",
+						"ins",
 						"Package Control: Install Package"
 					],
 					[
-						"ins",
+						"re",
+						"Package Control: Remove Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: ",
 						"Package Control: Install Package"
 					],
 					[
@@ -838,36 +921,59 @@
 			"expanded_folders":
 			[
 				"/D/works/Web Html/中国设备工程专家网/web",
-				"/D/works/Web Html/中国设备工程专家网/web/admin",
-				"/D/works/Web Html/中国设备工程专家网/web/admin/article/category",
-				"/D/works/Web Html/中国设备工程专家网/web/admin/member",
-				"/D/works/Web Html/中国设备工程专家网/web/admin/reviews",
-				"/D/works/Web Html/中国设备工程专家网/web/include",
-				"/D/works/Web Html/中国设备工程专家网/web/include/platform",
-				"/D/works/Web Html/中国设备工程专家网/web/include/sendsms",
-				"/D/works/Web Html/中国设备工程专家网/web/member",
-				"/D/works/Web Html/中国设备工程专家网/web/member/action",
-				"/D/works/Web Html/中国设备工程专家网/web/member/cgps",
-				"/D/works/Web Html/中国设备工程专家网/web/member/expert",
-				"/D/works/Web Html/中国设备工程专家网/web/member/gys",
-				"/D/works/Web Html/中国设备工程专家网/web/member/info",
-				"/D/works/Web Html/中国设备工程专家网/web/member/rczp",
-				"/D/works/Web Html/中国设备工程专家网/web/member/sbcg",
-				"/D/works/Web Html/中国设备工程专家网/web/member/wzcx",
-				"/D/works/Web Html/中国设备工程专家网/web/resource",
-				"/D/works/Web Html/中国设备工程专家网/web/resource/css",
-				"/D/works/Web Html/中国设备工程专家网/web/resource/js"
+				"/D/works/Web Html/中国设备工程专家网/web/callback",
+				"/D/works/Web Html/中国设备工程专家网/web/expert"
 			],
 			"file_history":
 			[
+				"/D/works/Web Html/中国设备工程专家网/web/index.asp",
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/AutoFileName/autofilename.sublime-settings",
+				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/README.md",
+				"/D/works/Web Html/中国设备工程专家网/web/include/site.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/member/forget.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/member/register.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/member/registerEdit.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/callback/cb.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/include/platform/StringUtil.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/admin/login.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/admin/menu_base.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/resource/js/main.js",
+				"/D/works/Web Html/中国设备工程专家网/web/resource/js/main.min.js",
+				"/D/works/Web Html/中国设备工程专家网/www/member/forget.html",
+				"/D/works/Web Html/中国设备工程专家网/www/member/forget.min.html",
+				"/D/works/Web Html/中国设备工程专家网/www/member/forget.min.min.html",
+				"/D/works/Web Html/中国设备工程专家网/web/include/theme/default.css",
+				"/D/works/Web Html/中国设备工程专家网/web/member/login.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/include/platform/ConnectionUtil.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/admin/reviews/detail.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/member/index.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/admin/article/list.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/include/function.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/member/sbcg/index.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/admin/article/category/include.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/include/common/foot.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/member/menu.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/resource/css/member.css",
+				"/D/works/Web Html/中国设备工程专家网/www/member/registerEdit.html",
+				"/D/works/Web Html/中国设备工程专家网/web/include/sendsms/sendsms.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/member/cgps/index.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/include/sendsms/config.asp",
+				"/D/works/Web Html/中国设备工程专家网/www/css/style.css",
+				"/D/works/Web Html/中国设备工程专家网/web/resource/css/index.css",
+				"/D/works/Web Html/中国设备工程专家网/web/resource/css/style.css",
+				"/D/works/Web Html/中国设备工程专家网/web/include/platform/HttpUtil.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/include/platform/SecurityUtil.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/admin/reviews/action.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/member/action/cgps.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/admin/reviews/reviews.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/member/cgps/edit.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/member/cgps/view.asp",
+				"/D/works/Web Html/中国设备工程专家网/web/member/sbcg/view.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/expert/intro.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/expert/edit.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/include/site.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/member/cgps/index.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/admin/member/list.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/admin/login.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/admin/reviews/action.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/admin/reviews/detail.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/expert/index.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/expert/list.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/gys/index.asp",
@@ -875,56 +981,33 @@
 				"/D/works/Web Html/中国设备工程专家网/web/member/info/index.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/info/list.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/rczp/index.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/member/index.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/member/cgps/edit.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/member/sbcg/index.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/wzcx/index.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/sbcg/edit.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/admin/reviews/reviews.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/resource/css/public.css",
-				"/D/works/Web Html/中国设备工程专家网/web/resource/css/member.css",
 				"/D/works/Web Html/中国设备工程专家网/web/member/wzcx/view.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/wzcx/edit.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/include/sendsms/sendsms.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/include/sendsms/config.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/action/wzcx.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/include/platform/HttpUtil.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/include/platform/SecurityUtil.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/include/config.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/include/platform/WebUtil.asp",
 				"/D/works/Web Html/你丢我找/web/www/include/wxpay/function.asp",
 				"/D/works/Web Html/你丢我找/web/www/include/wxpay/payv3.asp",
 				"/D/works/Web Html/你丢我找/web/www/member/recharge.asp",
 				"/D/works/Web Html/你丢我找/web/www/include/wxpay/config.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/include/platform/StringUtil.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/include/const.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/include/function.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/admin/links/action.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/include/platform/ValidatorUtil.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/admin/links/detail.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/member/sbcg/view.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/resource/css/style.css",
-				"/D/works/Web Html/中国设备工程专家网/web/resource/css/index.css",
 				"/D/works/Web Html/中国设备工程专家网/web/member/action/sbcg.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/admin/article/category/include.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/rczp/edit.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/include/common/foot.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/resource/js/main.js",
-				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/README.md",
-				"/D/works/Web Html/中国设备工程专家网/web/resource/js/main.min.js",
 				"/D/works/Web Html/中国设备工程专家网/web/admin/job/detail.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/action/rczp.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/action/zj_article.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/admin/job/action.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/index.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/gys/intro.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/action/zj.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/member/login.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/include/script/base.js",
 				"/D/works/Web Html/中国设备工程专家网/web/member/gys/edit.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/action/gys.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/member/menu.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/admin/menu_base.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/admin/expert/list.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/admin/expert/detail.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/admin/expert/insert.asp",
@@ -949,7 +1032,6 @@
 				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
 				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
 				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/ConvertToUTF8/ConvertToUTF8.sublime-settings",
-				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/AutoFileName/autofilename.sublime-settings",
 				"/C/Users/bmqy/AppData/Roaming/Sublime Text 3/Packages/User/ColorPicker.sublime-settings",
 				"/D/works/Web Html/中国设备工程专家网/web/member/info/edit.asp",
 				"/D/works/Web Html/中国设备工程专家网/web/member/action/info_article.asp",
@@ -971,23 +1053,7 @@
 				"/C/Users/admin/AppData/Local/Google/Chrome/User Data/Default/Extensions/ocpaljdllpihinjkgfgbmkhcfdfkghbe/0.0.3_0/scripts/background.js",
 				"/C/Users/admin/AppData/Roaming/Sublime Text 3/Packages/CodeFormatter/Default (Windows).sublime-keymap",
 				"/C/Users/admin/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-				"/C/Users/admin/AppData/Local/Google/Chrome/User Data/Default/Extensions/ocpaljdllpihinjkgfgbmkhcfdfkghbe/0.0.3_0/manifest.json",
-				"/C/Users/admin/Desktop/你丢我找.ste",
-				"/D/works/Web Html/中国设备工程专家网/web/include/site-member.asp",
-				"/D/works/Web Html/专题页/top-model/index.html",
-				"/D/works/Web Html/专题页/top-model/mail.asp",
-				"/D/works/Web Html/中国设备工程专家网/web/ftpsync.settings",
-				"/D/works/Web Html/中国设备工程专家网/www/member/gys/index.html",
-				"/C/Users/bmqy/AppData/Local/Temp/fz3temp-2/silian.txt",
-				"/D/works/Web Html/专题页/top-works/2016/12/27/4626/mail.asp",
-				"/D/works/Web Html/专题页/top-works/2016/12/27/4626/index.html",
-				"/D/works/Web Html/中国设备工程专家网/www/member/register.html",
-				"/D/works/Web Html/中国设备工程专家网/www/member/login.html",
-				"/C/Users/bmqy/Desktop/ht1481787705.pdf",
-				"/D/works/Web Html/全国电子节能技术和产品数据库平台/web/news/index.asp",
-				"/D/works/Web Html/全国电子节能技术和产品数据库平台/web/tjcp/index.asp",
-				"/C/Users/bmqy/Desktop/mail.asp",
-				"/C/Users/bmqy/AppData/Local/Temp/fz3temp-2/mail.asp"
+				"/C/Users/admin/AppData/Local/Google/Chrome/User Data/Default/Extensions/ocpaljdllpihinjkgfgbmkhcfdfkghbe/0.0.3_0/manifest.json"
 			],
 			"find":
 			{
@@ -1006,6 +1072,10 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"getRandomNumber(0000,9999)",
+					"}\n",
+					"end if",
+					"foot",
 					".php",
 					"instr",
 					"sbcg",
@@ -1129,11 +1199,7 @@
 					"88268459",
 					"loadFile",
 					"filetext",
-					"encodeHtml",
-					"AspCms_StyleFun",
-					"postdata",
-					"postData",
-					"88268459"
+					"encodeHtml"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1141,6 +1207,7 @@
 				"regex": false,
 				"replace_history":
 				[
+					"getRandomNumberByLength(4)",
 					"wzcx",
 					"提交网址",
 					"memberId",
@@ -1191,33 +1258,37 @@
 			"groups":
 			[
 				{
-					"selected": 4,
+					"selected": 3,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/D/works/Web Html/中国设备工程专家网/web/include/function.asp",
+							"file": "/D/works/Web Html/中国设备工程专家网/web/expert/index.asp",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 7449,
+								"buffer_size": 3604,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										4993,
-										4993
+										548,
+										548
 									]
 								],
 								"settings":
 								{
+									"colorcode": true,
+									"is_init_dirty_state": false,
+									"origin_encoding": "UTF-8",
 									"syntax": "Packages/ASP/HTML-ASP.sublime-syntax",
-									"translate_tabs_to_spaces": false
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 3120.0,
+								"translation.y": 1140.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 4,
@@ -1225,57 +1296,62 @@
 						},
 						{
 							"buffer": 1,
-							"file": "/D/works/Web Html/中国设备工程专家网/web/admin/reviews/action.asp",
+							"file": "/D/works/Web Html/中国设备工程专家网/web/callback/cb.asp",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 9827,
+								"buffer_size": 14077,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										8535,
-										8535
+										9640,
+										9640
 									]
 								],
 								"settings":
 								{
+									"colorcode": true,
 									"syntax": "Packages/ASP/HTML-ASP.sublime-syntax",
 									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 4920.0,
+								"translation.y": 5700.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 3,
 							"type": "text"
 						},
 						{
 							"buffer": 2,
-							"file": "/D/works/Web Html/中国设备工程专家网/web/member/action/cgps.asp",
+							"file": "/D/works/Web Html/中国设备工程专家网/web/expert/detail.asp",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1485,
+								"buffer_size": 5499,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1297,
-										1297
+										1857,
+										1857
 									]
 								],
 								"settings":
 								{
+									"colorcode": true,
+									"is_init_dirty_state": true,
+									"origin_encoding": "UTF-8",
 									"syntax": "Packages/ASP/HTML-ASP.sublime-syntax",
-									"translate_tabs_to_spaces": false
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 300.0,
+								"translation.y": 360.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
@@ -1283,62 +1359,98 @@
 						},
 						{
 							"buffer": 3,
-							"file": "/D/works/Web Html/中国设备工程专家网/web/admin/reviews/reviews.asp",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 12773,
+								"buffer_size": 991,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										4822,
-										4642
+										271,
+										271
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/ASP/HTML-ASP.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
+									"auto_indent": false,
+									"colorcode": true,
+									"default_dir": "D:\\works\\Web Html\\中国设备工程专家网\\web",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_width": 2,
+									"word_wrap": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 2160.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 0,
 							"type": "text"
 						},
 						{
 							"buffer": 4,
-							"file": "/D/works/Web Html/中国设备工程专家网/web/member/cgps/edit.asp",
+							"file": "/C/Users/bmqy/AppData/Roaming/Sublime Text 3/README.md",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 9778,
+								"buffer_size": 359,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										7681,
-										7681
+										346,
+										346
 									]
 								],
 								"settings":
 								{
+									"colorcode": true,
+									"is_init_dirty_state": false,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/D/works/Web Html/中国设备工程专家网/web/expert/left.asp",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1063,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1063,
+										1063
+									]
+								],
+								"settings":
+								{
+									"colorcode": true,
+									"is_init_dirty_state": false,
+									"origin_encoding": "UTF-8",
 									"syntax": "Packages/ASP/HTML-ASP.sublime-syntax",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 2880.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 5,
 							"type": "text"
 						}
 					]
@@ -1375,9 +1487,17 @@
 				]
 			},
 			"menu_visible": true,
+			"output.CSS Extended Completions":
+			{
+				"height": 0.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
+			},
+			"output.markdown":
+			{
+				"height": 130.0
 			},
 			"pinned_build_system": "",
 			"position": "0,2,3,-32000,-32000,-1,-1,591,52,52,708",

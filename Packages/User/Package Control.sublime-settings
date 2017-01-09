@@ -5,10 +5,13 @@
 	],
 	"installed_packages":
 	[
+		"All Autocomplete",
+		"AutoFileName",
 		"Autoprefixer",
 		"ChineseLocalizations",
 		"ChineseTranslator",
 		"CodeFormatter",
+		"Colorcoder",
 		"ColorPicker",
 		"ConvertToUTF8",
 		"DocBlockr",
