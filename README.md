@@ -19,3 +19,4 @@
 + SublimeCodeIntel
 + DocBlockr
 + Minify
++ jQuery
