@@ -6,5 +6,8 @@
     {
         "keys": ["alt+ctrl+p"],
         "command": "autoprefixer"
-    }
+    },
+	{ "keys": ["ctrl+alt+shift+u"], "command": "soft_redo" },
+	{ "keys": ["ctrl+shift+u"], "command": "upper_case" },
+	{ "keys": ["ctrl+shift+l"], "command": "lower_case" }
 ]
