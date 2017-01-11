@@ -24,3 +24,5 @@
 + jQuery
 + AutoFileName
 + All Autocomplete
++ SublimeTmpl
++ InsertDate

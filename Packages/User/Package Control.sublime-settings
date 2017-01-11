@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"IMESupport"
 	],
 	"installed_packages":
 	[
@@ -17,6 +18,7 @@
 		"Emmet",
 		"FileDiffs",
 		"FTPSync",
+		"InsertDate",
 		"JavaScript Completions",
 		"jQuery",
 		"Keymaps",
@@ -29,6 +31,7 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-csslint",
-		"SublimeLinter-jshint"
+		"SublimeLinter-jshint",
+		"SublimeTmpl"
 	]
 }
