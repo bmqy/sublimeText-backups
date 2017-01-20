@@ -26,3 +26,4 @@
 + All Autocomplete
 + SublimeTmpl
 + InsertDate
++ HTML-CSS-JS Prettify

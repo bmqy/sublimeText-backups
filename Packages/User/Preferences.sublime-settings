@@ -17,7 +17,7 @@
 		"*.zip"
 	],
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (Colorcoded) (SL).tmTheme",
-	"font_size": 13,
+	"font_size": 14,
 	"ignored_packages":
 	[
 		"Vintage"
