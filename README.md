@@ -4,7 +4,7 @@
 # 自用插件如下：
 + Emmet
 + FileDiffs
-+ FTPSync(赞停用保留)
++ FTPSync(暂停用保留)
 + Less
 + Less2Css
 + SideBarEnhancements
