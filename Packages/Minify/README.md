@@ -21,7 +21,7 @@ dependencies are provided below.
 
 |                | Minify | Beautify |
 | -------------- |:------:|:--------:|
-| **CSS**        | [clean-css](https://www.npmjs.com/package/clean-css) or [uglifycss](https://www.npmjs.com/package/uglifycss) | [js-beautify --css](https://www.npmjs.org/package/js-beautify) |
+| **CSS**        | [clean-css](https://www.npmjs.com/package/clean-css) + [clean-css-cli](https://www.npmjs.com/package/clean-css-cli) or [uglifycss](https://www.npmjs.com/package/uglifycss) | [js-beautify --css](https://www.npmjs.org/package/js-beautify) |
 | **HTML**       | [html-minifier](https://www.npmjs.com/package/html-minifier) | [js-beautify --html](https://www.npmjs.org/package/js-beautify) |
 | **JavaScript** | [uglifyjs](https://www.npmjs.com/package/uglifyjs) | [uglifyjs --beautify](https://www.npmjs.com/package/uglifyjs) |
 | **JSON**       | [minjson](https://www.npmjs.com/package/minjson) (uses [uglifyjs](https://www.npmjs.com/package/uglifyjs)) | [minjson](https://www.npmjs.com/package/minjson) (uses [uglifyjs](https://www.npmjs.com/package/uglifyjs)) |
@@ -54,7 +54,7 @@ dependencies are provided below.
 
 3. Install required Node.js CLI apps:<br><br>
   From a shell window (`Terminal` on Mac OS X, `CMD.exe` on Windows) issue the following command:<br><br>
-  `npm install -g clean-css uglifycss js-beautify html-minifier uglify-js minjson svgo`<br><br>
+  `npm install -g clean-css-cli uglifycss js-beautify html-minifier uglify-js minjson svgo`<br><br>
   Notes:<br><br>
   If you are on Mac OS X and you get an error here then issue the following command from `Terminal`:
   `sudo chown -R $USER /usr/local` and then try to issue the npm install command from above again.<br><br>
@@ -62,7 +62,7 @@ dependencies are provided below.
   install command. You can also leave out `uglifycss`, etc.<br><br>
   If you already have some or all of the above Node.js CLI apps installed on your system then it is
   recommended to update them all to the latest version with the following command:<br><br>
-  `npm update -g clean-css uglifycss js-beautify html-minifier uglify-js minjson svgo`<br><br>
+  `npm update -g clean-css-cli uglifycss js-beautify html-minifier uglify-js minjson svgo`<br><br>
   Please test that the installed Node.js CLI apps are available via your `PATH`, here is how:<br><br>
   Still from a shell window (`Terminal` on Mac OS X, `CMD.exe` on Windows) issue the following command,
   for example:<br><br>
@@ -96,7 +96,7 @@ Open a `.css` or `.htm` or `.html` or `.js` or `.json` or `.svg` file in your Su
 
 ## User settings
 
-Please place your customized settings into:
+You can put your customized settings here:
 
 *(Preferences > Package Settings > Minify > Settings - User)*
 
@@ -104,9 +104,11 @@ To find out what the possible options are please see:
 
 *(Preferences > Package Settings > Minify > Settings - Default)*
 
+Please do not edit the **Settings - Default** file!!
+
 ## Project settings
 
-You can override the default and user settings for individual projects. Just add a "Minify" object to the "settings" object
+Also, you can override the default and user settings for individual projects. Just add a "Minify" object to the "settings" object
 in the project's .sublime-project file containing your [project specific settings](http://www.sublimetext.com/docs/3/projects.html).
 
 ###Example:
