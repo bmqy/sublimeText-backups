@@ -1,0 +1,10 @@
+// Your settings for MarkdownLivePreview. See the default file to see the different options. 
+{
+    // As soon as you open a markdown file, it opens the window preview
+    "markdown_live_preview_on_open": true,
+
+    // When the preview is opened, the markdown file is closed in the origin window and reopend in
+    // the preview window. If this option is set to 'true', then the markdown file will NOT be
+    // closed in the origin window
+    "keep_open_when_opening_preview": true,
+}

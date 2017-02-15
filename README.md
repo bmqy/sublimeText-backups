@@ -4,7 +4,7 @@
 # 自用插件如下：
 + Emmet
 + FileDiffs
-+ FTPSync(暂停用保留)
++ SFTP(停用FTPSync)
 + Less
 + Less2Css
 + SideBarEnhancements
@@ -27,4 +27,3 @@
 + SublimeTmpl
 + InsertDate
 + HTML-CSS-JS Prettify
-+ SFTP
