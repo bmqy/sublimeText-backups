@@ -10,7 +10,7 @@
 + SideBarEnhancements
 + Autoprefixer
 + CodeFomartter
-+ sublime-gbk-support（替换ConvertToUTF8）
++ ConvertToUTF8
 + javascript Completions
 + sublimeLinter
 + sublimeLinter-csslint
