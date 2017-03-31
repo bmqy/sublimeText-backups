@@ -27,3 +27,4 @@
 + SublimeTmpl
 + InsertDate
 + HTML-CSS-JS Prettify
++ SublimeHostsEdit
