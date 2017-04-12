@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"JavaScript Completions"
 	],
 	"installed_packages":
 	[
@@ -27,6 +26,7 @@
 		"LESS",
 		"LESS-build",
 		"Less2Css",
+		"LiveReload",
 		"Minify",
 		"Package Control",
 		"SFTP",
