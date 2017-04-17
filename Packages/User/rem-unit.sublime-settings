@@ -1,0 +1,5 @@
+{
+    "fontsize": 16,
+    "leadingzero": true,
+    "exts": [".css", ".scss", ".less", ".sass", ".styl", ".html"]
+}
