@@ -30,3 +30,5 @@
 + SublimeHostsEdit
 + LiveReload
 + rem-unit
++ Vue Syntax Highlight
++ Color Highlighter

@@ -11,6 +11,7 @@
 		"ChineseLocalizations",
 		"ChineseTranslator",
 		"CodeFormatter",
+		"Color Highlighter",
 		"ColorPicker",
 		"ConvertToUTF8",
 		"DocBlockr",
@@ -27,6 +28,8 @@
 		"LESS-build",
 		"Less2Css",
 		"LiveReload",
+		"Markdown Extended",
+		"Markdown Preview",
 		"Minify",
 		"Package Control",
 		"rem-unit",
@@ -36,6 +39,7 @@
 		"SublimeLinter",
 		"SublimeLinter-csslint",
 		"SublimeLinter-jshint",
-		"SublimeTmpl"
+		"SublimeTmpl",
+		"Vue Syntax Highlight"
 	]
 }
